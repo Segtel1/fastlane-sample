@@ -1,6 +1,3 @@
-# User Management System 
-
-Laravel project to apply CRUD functionalities on users.
 
 ## Getting Started
 
@@ -11,21 +8,13 @@ Laravel project to apply CRUD functionalities on users.
 5. Fill all the database information in the ".env" file
 6. Generate app encryption key using `` php artisan key:generate ``
 7. Generate the database tables using `` php artisan migrate `` 
-8. Run `` php storage:link `` to connect public folder to storage folder
 9. **Important**: \
-Generate Admin using `` db:seed `` \
-email: "admin@admin.com", password: "password"
+Generate User using `` db:seed `` \
+email: "admin@mail.com", password: "Test 1234"
 10. Run `` php artisan serve `` to open the project
 
 ## Features About The Project
 
-- Has Multiple Authentication, Admin Authentication and User Authentication
+- Run `` php artisan db:seed `` to load user details and cinema branches
 
-- There is no registration form for admins, only for users
-
-- To generate admin you must run `` php artisan db:seed ``
-
-- login form is mutual between users and admin but it will direct users to their home page and admins to their admin panel
-
-- Forms has validation
 
