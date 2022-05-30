@@ -10,7 +10,7 @@
 7. Generate the database tables using `` php artisan migrate `` 
 9. **Important**: \
 Generate User using `` db:seed `` \
-email: "admin@mail.com", password: "Test 1234"
+email: "admin@mail.com", password: "Test1234"
 10. Run `` php artisan serve `` to open the project
 
 ## Features About The Project
